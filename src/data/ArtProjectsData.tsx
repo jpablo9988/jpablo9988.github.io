@@ -11,7 +11,13 @@ import PracticeLink from '@/assets/project_thumbnails/Lonk2.png'
 import PracticeLinkTN from '@/assets/thumbnails/LinkBOTW_thumn.png'
 
 import Tenna from '@/assets/pixel_imgs/Tenna_DISCO_PixelArt_Page.png'
+import Detective from '@/assets/pixel_imgs/DetectiveWalk-Sheet.png'
+import DetectiveTH from '@/assets/pixel_imgs//DetectiveWalk-Shee_TH.png'
 import Earth from '@/assets/pixel_imgs/Earth_Skybox-export.png'
+import SmallSpritesThumbnail from '@/assets/gifs/TowerDefenseDEMOSPRITES.png'
+import SmallSpritesGif from '@/assets/gifs/TowerDefenseDEMOSPRITES.gif'
+import PlatformerThumbnail from '@/assets/gifs/robotgamepixelart.png'
+import PlatformerGif from '@/assets/gifs/robotgame.gif'
 import BlackHole from '@/assets/pixel_imgs/BlackHolePanoramic.png'
 import Pulsar from '@/assets/pixel_imgs/spacetry2.png'
 import PinkClouds from '@/assets/pixel_imgs/PinkClouds.png'
@@ -53,6 +59,22 @@ export const GetPixelArtProjects = (): ArtProjectItem[] => {
             alt: "A pixel-art landscape of a rural setting with a pink sky and a mysterious figure in the horizon.",
             source: PinkClouds,
         },
+        {
+            alt: "A set of small sprites I made for a school project!",
+            thumbnail: SmallSpritesThumbnail,
+            source: SmallSpritesGif,
+        },
+        {
+            alt: "A screencap of a small pixel-art plaformer I made for school!",
+            thumbnail: PlatformerThumbnail,
+            source: PlatformerGif,
+        },
+        {
+            alt: "A spritesheet of a top-down character I made for my capstone project, Manafuse!",
+            thumbnail: DetectiveTH,
+            source: Detective,
+        },
+
 
     ]
     return artList;
