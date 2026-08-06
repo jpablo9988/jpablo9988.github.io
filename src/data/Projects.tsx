@@ -5,7 +5,7 @@ import RGWS from '@/assets/project_thumbnails/RGWS-PwALOGO.gif'
 import OER from '@/assets/project_thumbnails/GearSimulatorThumbnail.png'
 import YourHealth from '@/assets/project_thumbnails/emerging.png'
 import HullBreach from '@/assets/project_thumbnails/hullbreach.png'
-
+import Froggy from '@/assets/project_thumbnails/froggy_thumbnail.png'
 
 export type Project = {
     title: string,
@@ -60,10 +60,27 @@ export class Projects {
                 isHighlight: true
             },
             {
+                title: "Froggy Speleology",
+                abstract: "An underwater exploation game about a big, big frog and an underwater cave" +
+                    "",
+                madeFor: "Underwater exploration game for the GMTK Game Jam 2026",
+                category: "Game",
+                tools: [
+                    "Unity 6",
+                    "FMOD"
+                ],
+                roles: [
+                    "Lead Programmer, Artist, Tecnical Audio Design",
+                ],
+                thumbnail: Froggy,
+                detailsPage: "https://caltropian.itch.io/froggy-speleology",
+                isHighlight: false
+            },
+            {
                 title: "Manafuse",
                 abstract: "A top-down card-based 2.5D action game where your health and mana are the same." +
                     "",
-                madeFor: " Capstone Project for my Game Programming A.D. (Highlight page under construction)",
+                madeFor: " Capstone Project for my Game Programming Degree",
                 category: "Game",
                 tools: [
                     "Unity 6",
@@ -127,6 +144,7 @@ export class Projects {
                 detailsPage: "https://github.com/Arpitsavaliya/Tower-Defense",
                 isHighlight: false
             },
+
             {
                 title: "Your Health",
                 abstract: "GraphQL + AI from Emerging Technologies Course at Centennial College " +
